@@ -29,15 +29,13 @@ The Restaurant Management System is a web application designed to streamline and
 ### Clone the Repository
 ```
 git clone https://github.com/RutujaMoholkar/restaurant-management-system.git
-cd restaurant-management-system
 ```
-
 
 ### Install Dependencies
 
 #### Backend
 
-1. Navigate to the `backend` directory.
+1. Navigate to the `Final_Spring Boot Project` directory.
 2. Import the project into your IDE (e.g., IntelliJ IDEA, Eclipse).
 3. Add the following application properties in `src/main/resources/application.properties`:
 
@@ -63,7 +61,7 @@ spring.devtools.remote.debug.enabled=true
    
 #### Frontend
 ```
-cd frontend
+cd AngularRestaurant/restaurant
 npm install
 ```
 
@@ -79,7 +77,7 @@ The backend server will start on `http://localhost:7000`.
 
 #### Frontend
 ```
-cd frontend
+cd AngularRestaurant/restaurant
 ng serve
 ```
 The frontend server will start on `http://localhost:4200`.
