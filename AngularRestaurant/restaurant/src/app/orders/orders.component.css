@@ -1,0 +1,119 @@
+/* Styling for the orders table */
+table {
+  width: 95%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+
+.content h2 {
+  text-align: center;
+  font-family: monospace;
+  margin: 28px;
+  color: white;
+  font-size: 50px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(104, 101, 101);
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  color: #f2f2f2;
+  font-weight: 450;
+  font-size: 18px;
+}
+
+th {
+  font-weight: 550;
+  font-size: 25px;
+  padding: 15px;
+}
+
+/* Styling for the order details section */
+.order-details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* background-color: #f9f9f9; */
+  border-radius: 5px;
+
+}
+
+.order-details h5 {
+  margin-top: 0;
+  /* color: #333; */
+  color: #f2f2f2;
+  /* border: 2px solid black; */
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 23px;
+}
+
+.order-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-details li {
+  margin-bottom: 5px;
+}
+
+.order-details li strong {
+  font-weight: bold;
+}
+
+
+/* Styling for action buttons*/
+button {
+  /* margin-right: 5px; */
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+button:hover {
+  background-color: #0264ce;
+}
+
+/* .img {
+
+  background-image: url('../../assets/pexels-pixabay-262978.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  height: 100vh;
+  opacity: 0.9;
+} */
+
+#myVideo {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.content {
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 83px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
